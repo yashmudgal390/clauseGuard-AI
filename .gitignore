@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+.env*.local
+*.env
+
+# Next.js Build Outputs
+.next/
+out/
+build/
+dist/
+
+# Python Cache & Testing
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Exports & Artifacts
+backend/exports/*.docx
+!backend/exports/.gitkeep
+
+# System & OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
